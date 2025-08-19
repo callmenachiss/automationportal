@@ -238,23 +238,47 @@ body {
     padding: 10px;
 }
 
-.footercontainer h3{
-  font-size: 17px;
-  text-align: start;
-  margin-left: 100px;
+.footercontainer {
+    display: flex;
+    justify-content: space-between; /* h3 on left, links on right */
+    align-items: center; /* vertically center */
+    padding: 20px 40px;  /* spacing around */
 }
 
-.footerlinks{
+.footercontainer h3 {
+    font-size: 17px;
+    margin: 0; 
+    margin-left: 70px;;
+}
+
+.footerlinks {
+    display: flex;
+    gap: 20px;
+}
+
+.footerlinks a {
     text-decoration: none;
     color: black;
-    font-weight: bold;  
-    transition: color 0.3s ease;
+    margin-right: 62px;
 }
 
-.footerlinks a{
-    gap: 20px;
-    display: flex;
-    list-style: none;
-    margin-left: 60%;
-    margin-top: 15px;
+.whitecircle{
+    background-color:red;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    left:980px;
 }
+
+.white-circle{
+    background-color:red;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    left:1158px;
+}
+

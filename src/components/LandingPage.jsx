@@ -8,8 +8,13 @@ import TCS from '../assets/tcs.png';
 import ZOHO from '../assets/zoho.png';
 import CTS from '../assets/CTS.png';
 import GAVS from '../assets/gavs.jpg';
-
+import { useNavigate } from "react-router-dom";
 const LandingPage = () => {
+    const navigate = useNavigate();
+    const handleLogin = () => {
+        navigate("/login");
+    };
+
     return (
         <>
             <div className="lineimage">
@@ -30,7 +35,7 @@ const LandingPage = () => {
                         <li><a href="/">Contact Us</a></li>
                         <li><a href="/">Make a Payment</a></li>
                     </ul>
-                    <button className='login'>Login</button>
+                    <button className='login' onClick={handleLogin}>Login</button>
                 </div>
             </header>
 
@@ -94,7 +99,7 @@ const LandingPage = () => {
             <div className="whyuscontainer">
                 <h1>Why We're the Best Choice for</h1><br />
             </div>
-             <div className="learningcontainer">
+            <div className="learningcontainer">
                 <h1>Your Learning</h1>
             </div>
 
@@ -120,9 +125,14 @@ const LandingPage = () => {
             <footer>
                 <div className="footercontainer">
                     <h3>© 2023 Coding Ninja. All rights reserved.</h3>
+                    <div className='whitecircle'>
+                    </div>
                     <div className="footerlinks">
                         <a href="/">Privacy Policy</a>
                         <a href="/">Contact Us</a>
+                    </div>
+
+                    <div className='white-circle'>
                     </div>
                 </div>
             </footer>

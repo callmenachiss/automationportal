@@ -1,0 +1,27 @@
+.workspace {
+    margin-left: 30px;
+}
+
+.dashboard-container {
+    background-color: aquamarine;
+}
+
+.formcontainer {
+    background-color: red;
+    height: 150px;
+    width: 170px;
+    margin: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.addworkspace {
+    background-color: blueviolet;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
