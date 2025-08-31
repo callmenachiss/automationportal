@@ -7,31 +7,15 @@ const DashboardPage = () => {
 
 
   return (
-    <div className='dashboard-container'>
-      <h1 className='workspace'>Workspaces</h1>
+    
+      <div>
 
+        <div className="work_container">
+          <div className="button_container">
+            <h4>Button</h4>
+          </div>
 
-      <div className="workspacecontainer">
-        <div className="formcontainer">
-          <button className="addworkspace">form</button>
         </div>
-      </div>
-
-       <div className="workspacecontainer">
-        <div className="formcontainer">
-          <button className="addworkspace">form</button>
-        </div>
-      </div>
-       <div className="workspacecontainer">
-        <div className="formcontainer">
-          <button className="addworkspace">form</button>
-        </div>
-      </div>
-       <div className="workspacecontainer">
-        <div className="formcontainer">
-          <button className="addworkspace">form</button>
-        </div>
-      </div>
 
 
 

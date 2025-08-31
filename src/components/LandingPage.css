@@ -127,8 +127,7 @@ body {
     width: 200px;
     height: 200px;
     background: #ff4d4d;
-    clip-path: path("M 50 10 C 90 -10, 150 20, 160 70 C 180 110, 140 160, 90 180 C 40 190, 0 140, 20 90 C 30 50, 10 30, 50 10 Z");
-    position: absolute;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);    position: absolute;
     top: 70px;
     right: 30px;
     color: white;

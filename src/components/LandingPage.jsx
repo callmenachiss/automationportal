@@ -124,7 +124,7 @@ const LandingPage = () => {
 
             <footer>
                 <div className="footercontainer">
-                    <h3>© 2023 Coding Ninja. All rights reserved.</h3>
+                    <h3>© 2023 - 2025 Coding Ninja. All rights reserved.</h3>
                     <div className='whitecircle'>
                     </div>
                     <div className="footerlinks">
