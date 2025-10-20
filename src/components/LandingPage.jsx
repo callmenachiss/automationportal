@@ -83,9 +83,7 @@ const LandingPage = () => {
                     <p>Highest CTC</p>
                 </div>
             </div>
-            <div class="shapes-container">
-                <div class="pentagon">Buy me a coffee</div>
-            </div>
+         
             <div className="companycontainer">
                 <div> <h5>Where do our students work? </h5></div>
                 <div className="roundedcontainer">
